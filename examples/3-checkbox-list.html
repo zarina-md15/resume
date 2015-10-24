@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Список с иконками</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+	<!-- Список с иконками. Вложенные списки с иконками и многострочными элементами-->
+	<style type="text/css">
+		body {
+			font-family: sans-serif;
+			font-size: 14px;
+		}
+		
+		li {
+			list-style: none;
+			margin: 8px 0;
+		}
+		
+		.icon {
+			float: left;
+		}
+		
+		.text {
+			margin-left: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<ul>
+		<li>
+			<div class="icon"><i class="fa fa-check-square-o"></i></div>
+			<div class="text">
+				Раздел 1
+				<br/> какая-то строка
+				<br/> ещё одна строка
+			</div>
+			<ul>
+				<li>
+					<div class="icon"><i class="fa fa-check-square-o"></i></div>
+					<div class="text">Раздел 1.1</div>
+				</li>
+				<li>
+					<div class="icon"><i class="fa fa-check-square-o"></i></div>
+					<div class="text">Страница 1.2</div>
+				</li>
+			</ul>
+		</li>
+
+		<li>
+			<div class="icon"><i class="fa fa-check-square-o"></i></div>
+			<div class="text">Раздел 2</div>
+		</li>
+
+	</ul>
+</body>
+
+</html>
